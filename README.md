@@ -44,4 +44,4 @@ allure serve allure-results
 Generará una screenshot y la guardara en failed_tests con el nombre del test
 
 # Listener de TestNG
-listener de TestNG para ocupar log4j
+listener de TestNG para ocupar log4j los cuales se guardaran en logs/automation.log
