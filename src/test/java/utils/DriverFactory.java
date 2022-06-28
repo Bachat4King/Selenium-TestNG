@@ -46,6 +46,8 @@ public class DriverFactory {
             capabilities.setCapability("enableVideo", enableVideo);
 
             hiloLocal.set(new RemoteWebDriver(new URL(remoteUrl), capabilities));
+            getDriver().manage().deleteAllCookies();
+            getDriver().manage().window().maximize();
             return getDriver();
         }
 
