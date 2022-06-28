@@ -15,6 +15,11 @@ Configurables en el archivo config.properties
 DEFAULT_EMAIL=DEFAULT_EMAIL
 DEFAULT_PASSWORD=DEFAULT_PASSWORD
 ```
+# Patrones de Diseño
+- Page Object Model
+- Builder Pattern
+- Factory | Object Mother Pattern <br>
+Usados para la generacion de datos usando java faker y clase base de selenium
 # Correr Tests
 
 ## Ejecutar desde la consola
