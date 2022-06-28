@@ -5,7 +5,26 @@ Proyecto Maven creado con Selenium, WebdriverManager, TestNG, Log4j, JavaFaker, 
 3. Login Con Credenciales Invalidas
 4. Ver el video de bienvenida de un curso en específico
 5. Recuperar Contraseña
-
+# Estructura del proyecto
+### Paquete utils
+- Clase DriverFactory contiene métodos para inicializar el driver y obtener el driver
+- Clase PropertiesFile contiene método para leer archivos properties
+### Paquete tests
+- Clase BaseTest para inicializar el driver antes de cada test y cerrarlo despues de cada test
+- Clase Tests contiene todo los tests para ejecutar
+### Paquete pages
+- Clases que modelan las paginas
+### Paquete model
+- Clase UserModel contiene el modelo del usuario
+### Paquete listeners
+- Clase TestNGListeners contiene los listeners
+### Paquete data.factory
+- Clase UserModelFactory generación de datos a partir JavaFaker y el builder
+### Paquete builder
+- Clase UserModelBuilder contiene el builder para la clase UserModel
+### Paquete resources
+- Archivo config.properties contiene las configuraciones necesarias
+- Archivo log4j2.properties contiene la estructura del log
 # Generación de datos
 ## Java Faker
 Uso de java faker para el registro exitoso
